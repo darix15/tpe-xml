@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+ <xs:element name="Ecole">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="IntituleFrancais" type="xs:string"/>
+            <xs:element name="IntituleAnglais" type="xs:string"/>
+            <xs:element name="BoitePostale" type="xs:string"/>
+            <xs:element name="Telephone" type="xs:string"/>
+            <xs:element name="Email" type="xs:string"/>
+            <xs:element name="SiteWeb" type="xs:string"/>
+            <xs:element name="Etudiants" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="Etudiant" type="EtudiantType" maxOccurs="unbounded"/>
+                    </xs:sequence>
+                    <xs:attribute name="annee" type="xs:string" use="required"/>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="code" type="xs:string" use="required"/>
+        <xs:attribute name="numeroCompteBancaire" type="xs:string" use="required"/>
+    </xs:complexType>
+ </xs:element>
+ <xs:complexType name="EtudiantType">
+     <xs:sequence>
+         <xs:element name="Nom" type="xs:string"/>
+         <xs:element name="DateDeNaissance" type="xs:string"/>
+         <xs:element name="LieuDeNaissance" type="xs:string"/>
+         <xs:element name="Sexe" type="SexeType"/>
+         <xs:element name="Nationalite" type="xs:string"/>
+         <xs:element name="Parcours" type="xs:string"/>
+         <xs:element name="Option" type="xs:string"/>
+         <xs:element name="Niveau" type="xs:string"/>
+         <xs:element name="Montant" type="xs:positiveInteger"/>
+         <xs:element name="Tranche" type="TrancheType"/>
+     </xs:sequence>
+     <xs:attribute name="matricule" type="xs:string"></xs:attribute>
+ </xs:complexType>
+ <xs:simpleType name="SexeType">
+     <xs:restriction base="xs:string">
+         <xs:enumeration value="Masculin"/>
+         <xs:enumeration value="Feminin"/>
+     </xs:restriction>
+ </xs:simpleType>
+ <xs:simpleType name="TrancheType">
+    <xs:restriction base="xs:string">
+        <xs:enumeration value="Première"/>
+        <xs:enumeration value="Deuxième"/>
+        <xs:enumeration value="Totalité"/>
+    </xs:restriction>
+</xs:simpleType>
+</xs:schema>

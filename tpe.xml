@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Ecole code="ENSPM" numeroCompteBancaire="123456789 01">
+  <IntituleFrancais>Ecole Nationale Supérieure Polytechnique de Maroua</IntituleFrancais>  
+  <IntituleAnglais>The National Advanced School of Engineering of Maroua</IntituleAnglais>
+  <BoitePostale>46 Maroua</BoitePostale>
+  <Telephone>+237 22291541</Telephone>
+  <Email>enspm@univ-maroua.cm</Email>
+  <SiteWeb>https://www.enspm.univ-maroua.cm</SiteWeb>
+  <Etudiants annee="2020-2021">
+    <Etudiant matricule="00E300FS">
+      <Nom>Douwe Hallam Vincent</Nom>
+      <DateDeNaissance>22/05/1999</DateDeNaissance>
+      <LieuDeNaissance>Maroua</LieuDeNaissance>
+      <Sexe>Masculin</Sexe>
+      <Nationalite>Camerounaise</Nationalite>
+      <Parcours>INFOTEL</Parcours>
+      <Option>Genie Logiciel</Option>
+      <Niveau>4</Niveau>
+      <Montant>250000</Montant>
+      <Tranche>Première</Tranche>
+    </Etudiant>
+    <Etudiant matricule="18A0300S">
+      <Nom>Guiem Richard</Nom>
+      <DateDeNaissance>13/09/1990</DateDeNaissance>
+      <LieuDeNaissance>Kaele</LieuDeNaissance>
+      <Sexe>Masculin</Sexe>
+      <Nationalite>Camerounaise</Nationalite>
+      <Parcours>ENREN</Parcours>
+      <Option>Biomasse</Option>
+      <Niveau>5</Niveau>
+      <Montant>50000</Montant>
+      <Tranche>Totalité</Tranche>
+    </Etudiant>
+  </Etudiants>
+    <Etudiants annee="2019-2020">
+    <Etudiant matricule="00E300FS">
+      <Nom>TTTTTT TTTTTT TTTTT</Nom>
+      <DateDeNaissance>22/05/1999</DateDeNaissance>
+      <LieuDeNaissance>Maroua</LieuDeNaissance>
+      <Sexe>Masculin</Sexe>
+      <Nationalite>Camerounaise</Nationalite>
+      <Parcours>INFOTEL</Parcours>
+      <Option>Genie Logiciel</Option>
+      <Niveau>4</Niveau>
+      <Montant>250000</Montant>
+      <Tranche>Première</Tranche>
+    </Etudiant>
+    <Etudiant matricule="18A0300S">
+      <Nom>TTTT TTTTT TTTT TTTTT TTTT</Nom>
+      <DateDeNaissance>13/09/1990</DateDeNaissance>
+      <LieuDeNaissance>Kaele</LieuDeNaissance>
+      <Sexe>Masculin</Sexe>
+      <Nationalite>Camerounaise</Nationalite>
+      <Parcours>ENREN</Parcours>
+      <Option>Biomasse</Option>
+      <Niveau>5</Niveau>
+      <Montant>50000</Montant>
+      <Tranche>Totalité</Tranche>
+    </Etudiant>
+  </Etudiants>
+</Ecole>
